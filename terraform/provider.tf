@@ -1,5 +1,5 @@
 terraform {
-    required_version = ">=15"
+    required_version = ">=1.5"
 
   required_providers {
     aws = {
@@ -13,9 +13,5 @@ terraform {
   }
 }
 
-# Configure the AWS Provider
-provider "aws" {
-  region = "var.aws_region"
-}
 
 
