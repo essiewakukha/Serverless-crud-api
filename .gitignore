@@ -1,0 +1,8 @@
+.terraform/
+build/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+!terraform.tfvars.example
