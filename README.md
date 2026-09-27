@@ -102,12 +102,6 @@ curl -i -X DELETE "$API_BASE_URL/items/1234ABCD"
 All five endpoints were tested end to end against a live deployment,
 including confirming a `404` on `GET /items/{id}` after deletion.
 
-## Screenshots
-
-![Terraform apply output](docs/screenshots/terraform-apply.png)
-![API Gateway resource tree](docs/screenshots/api-gateway-routes.png)
-![DynamoDB table with data](docs/screenshots/dynamodb-items.png)
-![Full curl test sequence](docs/screenshots/curl-tests.png)
 
 ## Clean up
 
